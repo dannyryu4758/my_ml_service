@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
 
 # Application definition
 
@@ -40,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework', # add django rest framework
     # apps
     'apps.endpoints',
+    'apps.ml',
 ]
 
 MIDDLEWARE = [
